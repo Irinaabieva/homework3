@@ -12,6 +12,6 @@ public class Main {
         int a = weight / averageGram;
         int b = a % 1;
         int averageDays = a - b;
-        System.out.println("Потребуется в среднем " + averageDays + " дней");
+        System.out.println("Потребуется в среднем " + averageDays + " дней ");
     }
 }

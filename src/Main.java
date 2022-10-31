@@ -1,13 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        int bottlesCar = 16 / 2;
-        int twentyMinutes = 20 * bottlesCar;
-        System.out.println("За 20 минут машины произвела бутылок " + twentyMinutes +" штук ");
-        int day = 24 * 60 * bottlesCar;
-        System.out.println("За день машины произвела бутылок " + day + " штук ");
-        int threeDays = 3 * day;
-        System.out.println("За 3 дня  машины произвела бутылок " + threeDays +" штук ");
-        int month = 30 * day * bottlesCar;
-        System.out.println("За месяц машины произвела бутылок " + month + " штук ");
+        int tinOfPaint = 120;
+        int whiteOneGrade = 2;
+        int brownOneGrade = 4;
+        int oneGrade = whiteOneGrade + brownOneGrade;
+        int sumOfGrades = tinOfPaint / oneGrade;
+        int white = sumOfGrades * whiteOneGrade;
+        int brown = sumOfGrades * brownOneGrade;
+        System.out.println("В школе, где " + sumOfGrades + " классов, нужно " + white + " банок белой краски и " + brown +" банок коричневой краски");
     }
 }

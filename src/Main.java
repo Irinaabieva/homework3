@@ -1,13 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        int bottlesCar = 16 / 2;
-        int twentyMinutes = 20 * bottlesCar;
-        System.out.println("За 20 минут машины произвела бутылок " + twentyMinutes +" штук ");
-        int day = 24 * 60 * bottlesCar;
-        System.out.println("За день машины произвела бутылок " + day + " штук ");
-        int threeDays = 3 * day;
-        System.out.println("За 3 дня  машины произвела бутылок " + threeDays +" штук ");
-        int month = 30 * day * bottlesCar;
-        System.out.println("За месяц машины произвела бутылок " + month + " штук ");
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        double percent = 0.1;
+        double newSalaryMasha = masha + (masha * percent);
+        double newSalaryDenis = denis + (denis * percent);
+        double newSalaryKristina = kristina + (kristina * percent);
+        int year = 12;
+        double salaryMashaForYear = (newSalaryMasha * year) - (masha * year) ;
+        double salaryDenisForYear = (newSalaryDenis * year) - (denis * year) ;
+        double salaryKristinaForYear = (newSalaryKristina * year) - (kristina * year) ;
+        System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + salaryMashaForYear + " рублей");
+        System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + salaryDenisForYear + " рублей");
+        System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + salaryKristinaForYear + " рублей");
+
     }
 }

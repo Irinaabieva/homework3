@@ -1,11 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-     int ludmilasStudents = 23;
-     int annasStudents = 27;
-     int ekaterinasStudents = 30;
-     int sumOfPapers = 480;
-     int sumOfStudent = ludmilasStudents + annasStudents + ekaterinasStudents;
-     int paper = sumOfPapers / sumOfStudent;
-        System.out.println("На каждого ученика рассчитано " + paper + " листов бумаги");
+        int bottlesCar = 16 / 2;
+        int twentyMinutes = 20 * bottlesCar;
+        System.out.println("За 20 минут машины произвела бутылок " + twentyMinutes +" штук ");
+        int day = 24 * 60 * bottlesCar;
+        System.out.println("За день машины произвела бутылок " + day + " штук ");
+        int threeDays = 3 * day;
+        System.out.println("За 3 дня  машины произвела бутылок " + threeDays +" штук ");
+        int month = 30 * day * bottlesCar;
+        System.out.println("За месяц машины произвела бутылок " + month + " штук ");
+
+
     }
 }

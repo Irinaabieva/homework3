@@ -9,7 +9,5 @@ public class Main {
         System.out.println("За 3 дня  машины произвела бутылок " + threeDays +" штук ");
         int month = 30 * day * bottlesCar;
         System.out.println("За месяц машины произвела бутылок " + month + " штук ");
-
-
     }
 }

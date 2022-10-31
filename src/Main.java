@@ -1,17 +1,22 @@
 public class Main {
     public static void main(String[] args) {
-        int applesDima = 2;
-        System.out.println("Значение переменной applesDima с типом int равно " + applesDima);
-        byte lesson = 100;
-        System.out.println("Значение переменной lesson с типом byte равно " + lesson);
-        float money = 3;
-        System.out.println("Значение переменной money с типом float равно " + money);
-        double stat = 3.75;
-        System.out.println("Значение переменной stat с типом double равно " + stat);
-        short course = 9;
-        System.out.println("Значение переменной course с типом short равно " + course);
-        long year = 365L;
-        System.out.println("Значение переменной year с типом long равно " + year);
-
+        double c = 27.12;
+        System.out.println(c);
+        long d = 987678965549L;
+        System.out.println(d);
+        int a = 2;
+        System.out.println(a);
+        int b = 786;
+        System.out.println(b);
+        boolean f = false;
+        System.out.println(f);
+        int banana = 569;
+        System.out.println(banana);
+        short t = -159;
+        System.out.println(t);
+        short y = 27897;
+        System.out.println(y);
+        float p = 67;
+        System.out.println(p);
     }
 }
